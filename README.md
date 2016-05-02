@@ -14,7 +14,7 @@
 * KMS10激活软件
 * My_WCP_Watermark_Editor_v1.0.1
 
-[点击下载Win10 14332 预览版 **密码q433**](链接: http://pan.baidu.com/s/1hsCWz7Q)
+[点击下载Win10 14332 预览版 **密码q433**](http://pan.baidu.com/s/1hsCWz7Q)
 
 **注意:要64为Win10 才支持Bash
 以上只是我自己的配置,你可以到互联网上下载相关软件**
