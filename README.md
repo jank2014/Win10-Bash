@@ -490,7 +490,8 @@ mysql> EXIT;
 ```
 ###测试服务器 php 
 
-```root@JANKZ839B:/etc# cd ..
+```
+root@JANKZ839B:/etc# cd ..
 root@JANKZ839B:/# cd /var/www/
 root@JANKZ839B:/var/www# ls
 html
@@ -507,10 +508,11 @@ root@JANKZ839B:/var/www/html# tree
 ├── index.html
 └── phpinfo.php
 ```
- win10访问 127.0.0.1
+
+####win10访问 127.0.0.1
  
 ![](https://github.com/jank2014/Win10-Bash/blob/master/pics/屏幕快照%202016-05-02%20上午7.19.01.png?raw=true)
- win10访问 127.0.0.1/phpinfo.php
+#### win10访问 127.0.0.1/phpinfo.php
  
 ![](https://github.com/jank2014/Win10-Bash/blob/master/pics/屏幕快照%202016-05-02%20上午7.20.31.png?raw=true)
 
