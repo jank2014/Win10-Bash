@@ -1,7 +1,7 @@
-# Win10-Bash
-#Windows上运行Linux子系统
+# Win10-Bash Windows上运行Linux子系统
 
-#微软做出的改变,这将是下一代开发的方向吗 Win10 bash shell LAMP
+#微软做出的改变,这将是下一代开发的方向吗 ?Win10 bash shell LAMP
+
 ####Win10 要支持Linux 了 你知道吗? 我想这是今年微软做出的最大的改变了,作为开发者 Win10 + Linux 你想到了什么?
 ####一开始觉得很像笑话,但是微软真的这么做了,而且还在不断的稳步改善.一开始我的想法就是如果可行的话 我会把本地的数据库服务器放到Linux上运行.今天我实现了这个功能,真的非常感谢微软.
 
@@ -15,12 +15,14 @@
 * My_WCP_Watermark_Editor_v1.0.1
 注意:要64为Win10 才支持Bash
 以上只是我自己的配置,你可以到互联网上下载相关软件
+
 ##实现功能
 PD虚拟机安装Win10
 Win10 开启Bash shell
 Win10 bash shell 下 安装 LAMP(Apache MySQL PHP)
 
 ###PD虚拟机安装Win10
+
 ####由于安装比较简单 这里不进行详细说明
 把下载好的Win10 14332镜像拷贝到桌面 或者直接放在下载目录下
 ![GitHub set up](https://github.com/jank2014/Win10-Bash/blob/master/pics/屏幕快照%202016-05-02%20上午5.50.49.png?raw=true)
@@ -47,17 +49,20 @@ Win10 bash shell 下 安装 LAMP(Apache MySQL PHP)
 ![](https://github.com/jank2014/Win10-Bash/blob/master/pics/屏幕快照%202016-05-02%20上午6.07.53.png?raw=true)
 
 ###安装Bash
+
 ####开启开发者模式 
 win10 底栏 最右边 打开通知 选择 所有设置>更新和安全>针对开发人员 
 ![](https://github.com/jank2014/Win10-Bash/blob/master/pics/屏幕快照%202016-05-02%20上午6.16.17.png?raw=true
 )
 ####开启Linux子系统
+
 #####控制面板\所有控制面板项\程序和功能
 ![](https://github.com/jank2014/Win10-Bash/blob/master/pics/屏幕快照%202016-05-02%20上午6.23.04.png?raw=true
 )
 #####打钩 适用于Linux的Windows子系统(Beta)
  
 #####这样子基本准备就完成,不过这才刚刚开始
+
 ####安装Bash
 管理员身份运行 CMD
 输入bash
@@ -518,5 +523,12 @@ root@JANKZ839B:/var/www/html# tree
 
 
 ##思考
+###Win10 + Linux 
+简单使用了一下,真是令人兴奋啊!这个子系统是Ubuntu14.04的版本,我在思考,以后Win10是否会支持更多的Linux版本,例如Elementary OS,Linux Mint,Fedora,Debian,Centos... 对于开发者来说或许不许需要图形界面,提供服务器版本最佳.但是对于普通用户来说,Win10 下运行带有图形界面的Linux 未尝不是一种全新体验,而且会有多样的选择.
+你可以想象一下在未来的某一天,Win10的桌面和Linux 桌面环境 Unity,Gnome,KDE,Cinnamon等 自由切换的场景.不管是Mac OS 还是Windows 系统当下的风格和界面都是很固定的,除非重大升级才会有比较大的改变.Linux的魅力在于开源自由可定制.而且有上百种发行版本.Win10+linux我想这有可能成为一种极佳的组合.
 
+
+
+
+ 
 
